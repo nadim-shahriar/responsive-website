@@ -12,8 +12,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 320px;
-    margin-right: 320px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .nav-a {
@@ -32,6 +32,7 @@ nav {
     font-size: 35px;
     font-weight: 700;
 }
+
 /* .head-a.a{
     
 }
@@ -44,8 +45,8 @@ nav {
 }
 
 .head-b-a {
-    padding-left: 600px;
-    padding-right: 600PX;
+    padding-left: 500px;
+    padding-right: 500PX;
     /* width: 862px; */
     color: #131313;
     font-size: 64px;
@@ -53,8 +54,8 @@ nav {
 }
 
 .head-b-b {
-    padding-left: 600px;
-    padding-right: 600PX;
+    padding-left: 400px;
+    padding-right: 400PX;
     color: #727272;
 }
 
@@ -75,4 +76,116 @@ nav {
     text-align: center;
     padding-bottom: 45px;
 
+}
+/* .head-b-c img{
+    width: 100%;
+} */
+.second-page {
+    margin-top: 120px;
+    display: flex;
+    margin-bottom: 120px;
+    align-items: center;
+    gap: 76px;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 200px;
+    width: 50%;
+    gap: 20px;
+}
+
+.sec-imga {
+    margin-bottom: 24px;
+}
+
+.sec-imgb {
+    margin-bottom: 24px;
+}
+
+.description {
+    width: 50%;
+
+}
+
+.des-h {
+    padding-right: 220px;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.des-p {
+    padding-right: 200px;
+    color: #727272;
+}
+/* Mobile devices */
+@media screen and (max-width : 576px) {
+    .header{
+        padding: 0px 20px;
+    }
+    .nav-a{
+        margin-left: 10px;
+    }
+    .head-b{
+        margin-top: 30px;
+    }
+    .head-b-c img{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-b-a{
+        padding: 0px;
+        font-size: 30px;
+    }
+    .head-b-b{
+        padding: 10px 10px;
+    }
+    .second-page{
+        flex-direction: column;
+    }
+    .image{
+        grid-template-columns: 1fr;
+        padding-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .description{
+        width: 100%;
+        padding-left: 200px;
+    }
+    .des-h{
+        font-size: 35px;
+        /* text-align: center; */
+    }
+    .des-p{
+        /* text-align: center; */
+    }
+    
+}
+/* medium devices */
+@media screen and (min-width : 576px) and (max-width : 992px) {
+    header{
+        padding: 0px 20px;
+    }
+    .head-b-c img{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .head-b-a{
+        padding: 0px;
+    }
+    .head-b-b{
+        padding: 10px 10px;
+    }
+    
 }
